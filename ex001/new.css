@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+}
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.cabeçalho{
+    position: relative;
+    
+    width: 940px;
+    margin: 0 auto;
+
+   
+}
+
+.menu{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+.menu a {
+   
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: yellow;
+    transition: 0.5s;
+}
+.menu li{
+    display: inline;    
+    color: black;
+    margin: 0 0 0 15px;
+}
+
+.tipos-de-cortes{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    gap: 30px;
+    
+}
+
+.cabelo{
+    width:30%;
+    border: solid 3px black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.cabelo:hover{
+    color: #C78C19;;
+    transition: 0.5;
+    border-color: #C78C19;
+}
+
+.cabelo:active {
+    border-color: green;
+}
+
+.cabelo:hover h1{
+    font-size: 34px;
+}
+.barba{
+    width:30%;
+    border: solid 3px black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.barba:hover{
+    color: #C78C19;;
+    transition: 0.5;
+    border-color: #C78C19;
+}
+.barba:active {
+    border-color: green;
+}
+.barba:hover h1{
+    font-size: 34px;
+}
+
+.cabeloebarba{
+    width:30%;
+    border: solid 3px black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.cabeloebarba:hover{
+    color: #C78C19;;
+    transition: 0.5;
+    border-color: #C78C19;
+}
+.cabeloebarba:active {
+    border-color: green;
+}
+.cabeloebarba:hover h1{
+    font-size: 34px;
+}
+
+footer{
+    background: url(bg.jpg);
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+.Copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+
+
+}
+
+
+
